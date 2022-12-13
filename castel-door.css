@@ -1,0 +1,49 @@
+body {
+    align-items: center;
+    font-family: 'Courier';
+    
+}
+h1{
+
+    text-align: center;
+
+}
+div.box1{
+    padding:10%;
+    text-align: justify;
+    background-color: rgba(223, 214, 214, 0.116);
+    border: solid 1px rgba(128, 128, 128, 0.192);
+    border-radius: 5%;
+    color :black;
+    font-size: 30px;
+    width:85%;
+    /*height: 100px;*/
+    margin-left: 25px;
+}
+div.box2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+   gap: 10%;
+    width:1500px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 9px;
+}
+a{
+text-decoration: none;
+
+}
+.first{
+    width: 60%;
+    height: 50%;
+    margin: 10%;
+}
+.second{
+    width: 60%;
+    height: 50%;
+    margin: 10%;
+}
+.container{
+    width:70%;
+    margin-left: 10%;
+}
